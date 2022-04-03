@@ -42,14 +42,18 @@ const QuizzPage: NextPage = () => {
                         </Radio.Group>
                     </Card>
                     <div className={style.button_group}>
-                    <Button type="primary" icon = {<LeftOutlined />} 
+                    <Button type="primary" icon = {<LeftOutlined />}
+                            disabled = {false} 
                             onClick = {handlePreviousQuestion}>
                             Previous Question
                     </Button>
-                    <Button type="primary" danger icon = {<CheckOutlined />} onClick = {handleSubmit}>
+                    {false && <Button type="primary" danger icon = {<CheckOutlined />} onClick = {handleSubmit}>
                             Submit
-                    </Button>
-                    <Button type="primary"  icon = {<RightOutlined />} onClick = {handleNextQuestion} >
+                    </Button>}
+                    <Button type="primary"  
+                            icon = {<RightOutlined />} 
+                            disabled = {false}
+                            onClick = {handleNextQuestion} >
                             Next Question
                     </Button>
                     </div> 
