@@ -1,5 +1,4 @@
 export interface QuestionResponse {
-    error?: string | null;
     questions: Question[];
 }
 
