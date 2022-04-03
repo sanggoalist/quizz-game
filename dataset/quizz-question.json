@@ -1,0 +1,71 @@
+{
+    "error": null,
+    "questions": [
+        {
+            "id": 1,
+            "name": "How many girls in the world 2021?",
+            "answers": [
+                "4,104,778,342",
+                "7,104,227,453",
+                "3,904,727,342",
+                "4,504,325,453"
+            ],
+            "correct": "3,904,727,342"
+        },
+        {
+            "id": 2,
+            "name": "How many teeth does an adult human have?",
+            "answers": [
+                "34",
+                "32",
+                "36",
+                "38"
+            ],
+            "correct": "32"
+        },
+        {
+            "id": 3,
+            "name": "What is the largest planet in the solar system?",
+            "answers": [
+                "Venus",
+                "Mercury",
+                "Mars",
+                "Jupiter"
+            ],
+            "correct": "Jupiter"
+        },
+        {
+            "id": 4,
+            "name": "What is the hottest planet in the solar system?",
+            "answers": [
+                "Venus",
+                "Mercury",
+                "Mars",
+                "Jupiter"
+            ],
+            "correct": "Venus"
+        },
+        {
+            "id": 5,
+            "name": "What is the rarest blood type?",
+            "answers": [
+                "AB positive",
+                "AB negative",
+                "A positive",
+                "B negative"
+            ],
+            "correct": "AB negative"
+        },
+        {
+            "id": 6,
+            "name": "How long does a human red blood cell survive?",
+            "answers": [
+                "110 days",
+                "120 days",
+                "140 days",
+                "130 days"
+            ],
+            "correct": "120 days"
+        }
+    ]
+}
